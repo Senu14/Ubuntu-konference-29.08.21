@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    padding-bottom: 10px;
+    justify-items: center;
+    background: linear-gradient(to left,  #E95420, #77216F, #5E2750, #2C001E);
+    }
+.nav-bar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #AD79A8;
+    padding: 0 80px;
+    }
+   .nav-img {
+    height: 60px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    .nav-manu {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    gap: 40px;
+    margin: 1em;
+    color: #F6F6F5;
+    font-size: 20px;
+    font-family: Ubuntu-Th;
+    }
+
+
+.IOT{
+    margin: 20px;
+   
+}
+.Desktop{
+    margin: 20px;
+}
+.dropbtn {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 4px;
+  }
+  .dropbtn-desktop{
+    background-color:  #FFFFFF;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border:2px solid black;
+   border-radius: 4px;
+  }
+  .dropbtn-desktop:hover, .dropbtn-desktop:focus {
+    background-color: #E95420;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #E95420;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-flex;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #CECAC5;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-desktop{
+    display: none;
+    position: absolute;
+    background-color: #CECAC5;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-desktop a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.desktop-img{
+    width: 50%;
+
+}
+.iot-img{
+  width: 50%;
+}
+.dropdown a:hover {background-color: #FFFFFF;}
+.show {display: block;}
+
+
+.footer{
+    background-color: #AD79A8;
+    height: 120px;
+    margin-top: 360px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.footer-nav{
+    margin: 0;
+    
+}
+.footer-manu{
+    margin-top: 0;
+    padding-top: 0;
+    color: #F6F6F5;
+    display: inline-flex;
+    padding-left: 525px;
+}
+.nav-item{
+    padding-top: 0;
+    margin-top: 0;
+    list-style: none;
+    padding-left: 7px;
+}
+.copyright{
+    padding-top: 10px;
+    padding-left: 6.3em;
+    color: #F6F6F5;
+}
+.location{
+    width: 1.5%;
+    top: 10px;
+    padding-left: 5.3em;
+}
+.address {
+    color: #F6F6F5;
+}
